@@ -554,29 +554,9 @@ video {
   --tw-contain-style:  ;
 }
 
-.ek-mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.ek-mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .ek-mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-}
-
-.ek-mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.ek-mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
 }
 
 .ek-mb-2 {
@@ -708,10 +688,6 @@ video {
   text-align: left;
 }
 
-.ek-text-right {
-  text-align: right;
-}
-
 .ek-font-semibold {
   font-weight: 600;
 }
@@ -831,5 +807,11 @@ video {
   .md\:ek-px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:ek-flex-row {
+    flex-direction: row;
   }
 }
