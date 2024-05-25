@@ -28545,25 +28545,25 @@ label.btn {
 }
 
 .input-group-pill > .form-control:first-child {
-  border-top-left-radius: 6.1875rem;
-  border-bottom-left-radius: 6.1875rem;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
 }
 
 .input-group-pill > .form-control:last-child {
-  border-top-right-radius: 6.1875rem;
-  border-bottom-right-radius: 6.1875rem;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
 }
 
 .input-group-pill .input-group-prepend > .input-group-text,
 .input-group-pill .input-group-prepend > .btn {
-  border-top-left-radius: 6.1875rem;
-  border-bottom-left-radius: 6.1875rem;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
 }
 
 .input-group-pill .input-group-append > .input-group-text,
 .input-group-pill .input-group-append > .btn {
-  border-top-right-radius: 6.1875rem;
-  border-bottom-right-radius: 6.1875rem;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
 }
 
 /*------------------------------------
@@ -34585,7 +34585,7 @@ blockquote:not(.blockquote) p {
 
 .nav-tab .nav-link {
   margin-bottom: -1px;
-  border-width: 2px;
+  /* border-width: 2px; */
   padding: .5rem .3rem;
   font-size: 1.125rem;
   color: #343f49;

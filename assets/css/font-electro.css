@@ -51,6 +51,7 @@
 .ec-menu:before {
   content: "\61";
 }
+
 .ec-list-view-medium:before {
   content: "\62";
 }
@@ -58,10 +59,11 @@
   content: "\63";
 }
 .ec-add-to-cart:before {
-  content: "\64";
+  
+  content: "\e854";
 }
 .ec-arrow-right-categproes:before {
-  content: "\65";
+  content: "\e5cc";
 }
 .ec-comment:before {
   content: "\66";
