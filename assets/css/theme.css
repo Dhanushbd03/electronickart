@@ -9659,7 +9659,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #fed700 !important;
+  background-color: #3D3F82 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -20753,7 +20753,7 @@ button:focus {
   height: 1.063rem;
   font-size: 1rem;
   color: #377dff;
-  background-color: #fed700;
+  background-color:#3D3F82;
   border-radius: 50%;
   transition: 0.3s;
 }

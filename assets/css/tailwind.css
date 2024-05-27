@@ -579,20 +579,12 @@ video {
   height: 100%;
 }
 
-.ek-max-h-40 {
-  max-height: 10rem;
+.ek-max-h-\[320px\] {
+  max-height: 320px;
 }
 
 .ek-max-h-\[400px\] {
   max-height: 400px;
-}
-
-.ek-max-h-\[380px\] {
-  max-height: 380px;
-}
-
-.ek-max-h-\[320px\] {
-  max-height: 320px;
 }
 
 .ek-w-full {
@@ -669,9 +661,14 @@ video {
   border-style: none;
 }
 
-.ek-border-yellow-500 {
+.ek-border-primary {
   --tw-border-opacity: 1;
-  border-color: rgb(234 179 8 / var(--tw-border-opacity));
+  border-color: rgb(61 63 130 / var(--tw-border-opacity));
+}
+
+.ek-bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .ek-bg-gray-200 {
@@ -679,13 +676,13 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.ek-bg-transparent {
-  background-color: transparent;
+.ek-bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 63 130 / var(--tw-bg-opacity));
 }
 
-.ek-bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+.ek-bg-transparent {
+  background-color: transparent;
 }
 
 .ek-p-4 {
@@ -712,20 +709,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.ek-px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.ek-px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.ek-pl-2 {
-  padding-left: 0.5rem;
-}
-
 .ek-text-left {
   text-align: left;
 }
@@ -733,11 +716,6 @@ video {
 .ek-text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.ek-text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .ek-text-xl {
@@ -759,9 +737,18 @@ video {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
+.ek-text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .ek-outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.ek-outline-primary {
+  outline-color: #3D3F82;
 }
 
 .ek-transition-all {
@@ -791,6 +778,11 @@ video {
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
+}
+
+.hover\:ek-bg-secondary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(213 32 46 / var(--tw-bg-opacity));
 }
 
 .hover\:ek-text-gray-800:hover {
