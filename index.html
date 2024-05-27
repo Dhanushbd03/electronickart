@@ -12,7 +12,7 @@
   />
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="TM Logo-071.png" />
+  <link rel="shortcut icon" href="assets\img\logo\TM Logo-09-modified-200X50.png" />
   
 
   <!-- Google Fonts -->
@@ -20,32 +20,7 @@
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
     rel="stylesheet"
   />
-  <!-- font awesome link -->
-  <script src="https://kit.fontawesome.com/77b2f8c3f6.js" crossorigin="anonymous"></script>
-  <!-- CSS Implementing Plugins -->
-  <link
-    rel="stylesheet"
-    href="assets/vendor/font-awesome/css/fontawesome-all.min.css"
-  />
-  <link rel="stylesheet" href="assets/css/font-electro.css" />
-  <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css" />
-  <link
-    rel="stylesheet"
-    href="assets/vendor/hs-megamenu/src/hs.megamenu.css"
-  />
-  <link
-    rel="stylesheet"
-    href="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css"
-  />
-  <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css" />
-  <link
-    rel="stylesheet"
-    href="assets/vendor/slick-carousel/slick/slick.css"
-  />
-  <link
-    rel="stylesheet"
-    href="assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css"
-  />
+
   <link rel="stylesheet" href="assets/css/tailwind.css" />
   <!-- icons -->
   <link
@@ -148,11 +123,7 @@
         >
           <div class="ek-flex ek-justify-start ek-mb-2 md:ek-mb-0">
             <span class="ek-flex ek-items-center"
-              ><i class="ec ec-call ek-text-xl"></i> 1800 266
-              6123 |&nbsp;</span
-            >
-            <span class="ek-flex ek-items-center"
-              ><i class="ec ec-customers ek-text-xl"></i> Customer Support</span
+              ><i class="ec ec-call ek-text-xl"></i>Customer care: +91 8892882988</span
             >
           </div>
           <div
@@ -463,8 +434,8 @@
               <!-- End Logo-offcanvas-menu -->
               <!-- Search Bar -->
               <div class="col d-none d-xl-flex">
-                <div class="ek-w-full navbar-search ek-flex ek-items-center grow  ek-border-2 ek-border-yellow-500 ek-rounded-lg ek-overflow-hidden">
-                  <select class=" ek-bg-transparent ek-px-4 ek-py-4 ek-outline-yellow no-scrollbar">
+                <div class="ek-w-full  ek-flex ek-items-center grow  ek-border-2 ek-border-yellow-500 ek-rounded-lg ek-overflow-hidden">
+                  <select class=" ek-bg-transparent ek-px-4 ek-py-4 ek-outline-yellow no-scrollbar ek-max-w-40">
                       <option value="one" selected>All Categories</option>
                         <option value="shop-by-brands">Shop by Brands</option>
                         <option value="new-arrivals">New Arrivals</option>
@@ -491,21 +462,11 @@
                         <option value="refurbished-partial-workin">Refurbished & Partial Working</option>
                   </select>
                   <input type="text" placeholder="Search for Products" class="ek-border-none ek-px-4 ek-py-3 ek-flex-grow ek-outline-none">
-                  <button class="ek-bg-yellow-500 ek-border-none ek-px-4 ek-py-3 ek-cursor-pointer">
-                    <span class="material-symbols-outlined search" id="search" onclick="addanimate()">
-                      search
-                      </span>
+                  <button class="ek-bg-yellow-500 ek-border-none ek-px-4 ek-py-4 ek-cursor-pointer">
+                    <i class="ec ec-search ek-text-2xl"></i>
                   </button>
               </div>
-             <script>
-              function addanimate(){
-                document.querySelector('#search').classList.add('animate__animated', 'animate__bounce');
-                setTimeout(()=>{
-                  document.querySelector('#search').classList.remove('animate__animated', 'animate__bounce')
-                },1000)
-              }
-              
-              </script>
+             
 
               
               </div>
@@ -562,26 +523,8 @@
                       <!-- End Input -->
                     </li>
                     <!-- End Search -->
-                    <li class="col d-none d-xl-block">
-                      <a
-                        href="#"
-                        class="text-gray-90"
-                        data-toggle="tooltip"
-                        data-placement="top"
-                        title="Compare"
-                        ><i class="font-size-22 ec ec-compare"></i
-                      ></a>
-                    </li>
-                    <li class="col d-none d-xl-block">
-                      <a
-                        href="#"
-                        class="text-gray-90"
-                        data-toggle="tooltip"
-                        data-placement="top"
-                        title="Favorites"
-                        ><i class="font-size-22 ec ec-favorites"></i
-                      ></a>
-                    </li>
+                    
+                    
                     <li class="col d-xl-none px-2 px-sm-3">
                       <a
                         href="#"
@@ -765,9 +708,9 @@
                         >
                           <div
                             id="navBar"
-                            class="collapse navbar-collapse u-header__navbar-collapse"
+                            class=""
                           >
-                            <ul class="navbar-nav u-header__navbar-nav">
+                            <ul class="ek-max-h-[400px] ek-overflow-scroll no-scrollbar">
                               <li
                                 class="nav-item u-header__nav-item"
                                 data-event="hover"
@@ -775,8 +718,8 @@
                               >
                                 <a
                                   href="#"
-                                  class="nav-link u-header__nav-link font-weight-bold"
-                                  >Shop by Brands</a
+                                  class="nav-link u-header__nav-link ek-px-4 font-weight-bold"
+                                  >Shop by brands </a
                                 >
                               </li>
                               <li
@@ -2328,7 +2271,7 @@
                                         >Electronic Modules</span
                                       >
                                       <ul
-                                        class="u-header__sub-menu-nav-group mb-3"
+                                        class="u-header__sub-menu-nav-group mb-3 ek-max-h-[320px] ek-overflow-scroll no-scrollbar"
                                       >
                                         <li>
                                           <a
@@ -3366,11 +3309,7 @@
                     <!-- End Gift Cards -->
 
                     <!-- Button -->
-                    <li class="nav-item u-header__nav-last-item">
-                      <a class="text-gray-90" href="#" target="_blank">
-                        Free Shipping on Orders $50+
-                      </a>
-                    </li>
+                    
                     <!-- End Button -->
                   </ul>
                 </div>

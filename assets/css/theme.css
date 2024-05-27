@@ -6286,7 +6286,7 @@ input[type="button"].btn-block {
       flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none;
+  list-style: none;s
 }
 
 .navbar-nav .nav-link {
@@ -20938,9 +20938,9 @@ button:focus {
 }
 
 /* Nav Item */
-.u-header .u-header__nav-item:first-child .u-header__nav-link {
+/* .u-header .u-header__nav-item:first-child .u-header__nav-link {
   padding-left: 0;
-}
+} */
 
 .u-header__nav-item:hover .u-header__nav-link, .u-header__nav-item:focus .u-header__nav-link {
   color: #000000;
@@ -33188,10 +33188,10 @@ blockquote:not(.blockquote) p {
   padding: 0 0.875rem;
 }
 
-.u-header .vertical-menu .u-header__nav-item:first-child .u-header__nav-link,
+/* .u-header .vertical-menu .u-header__nav-item:first-child .u-header__nav-link,
 .u-header + main .vertical-menu .u-header__nav-item:first-child .u-header__nav-link {
   padding-left: 0.31237rem;
-}
+} */
 
 .u-header .vertical-menu .u-header__nav-item:last-child .u-header__nav-link,
 .u-header + main .vertical-menu .u-header__nav-item:last-child .u-header__nav-link {
