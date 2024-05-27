@@ -49,14 +49,14 @@
 }
 
 .ec-menu:before {
-  content: "\61";
+  content: "\e5d2";
 }
 
 .ec-list-view-medium:before {
   content: "\62";
 }
 .ec-transport:before {
-  content: "\63";
+  content: "\e558";
 }
 .ec-add-to-cart:before {
   
@@ -73,7 +73,7 @@
   content: "\e915";
 }
 .ec-customers:before {
-  content: "\68";
+  content: "\e311";
 }
 .ec-dollar:before {
   content: "\69";
@@ -167,4 +167,7 @@ content: "\e8cc";
 }
 .ec-tvs:before {
   content: "\4d";
+}
+.ec-call:before {
+  content: "\e0b0";
 }

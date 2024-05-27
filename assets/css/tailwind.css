@@ -575,6 +575,10 @@ video {
   display: none;
 }
 
+.ek-h-full {
+  height: 100%;
+}
+
 .ek-w-full {
   width: 100%;
 }
@@ -664,6 +668,10 @@ video {
   padding: 1rem;
 }
 
+.ek-p-0 {
+  padding: 0px;
+}
+
 .ek-px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -686,6 +694,21 @@ video {
 
 .ek-text-left {
   text-align: left;
+}
+
+.ek-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.ek-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.ek-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .ek-font-semibold {
